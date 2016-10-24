@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EAFE20CE1DBDB29800F64EDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFE20CD1DBDB29800F64EDA /* AppDelegate.swift */; };
+		EAFE20D01DBDB29800F64EDA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFE20CF1DBDB29800F64EDA /* ViewController.swift */; };
+		EAFE20D31DBDB29800F64EDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAFE20D11DBDB29800F64EDA /* Main.storyboard */; };
+		EAFE20D51DBDB29800F64EDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAFE20D41DBDB29800F64EDA /* Assets.xcassets */; };
+		EAFE20D81DBDB29800F64EDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAFE20D61DBDB29800F64EDA /* LaunchScreen.storyboard */; };
+		EAFE20E01DBDB2DA00F64EDA /* CycleScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFE20DF1DBDB2DA00F64EDA /* CycleScrollView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EAFE20CA1DBDB29800F64EDA /* CycleScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CycleScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAFE20CD1DBDB29800F64EDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EAFE20CF1DBDB29800F64EDA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EAFE20D21DBDB29800F64EDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EAFE20D41DBDB29800F64EDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EAFE20D71DBDB29800F64EDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EAFE20D91DBDB29800F64EDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAFE20DF1DBDB2DA00F64EDA /* CycleScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CycleScrollView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAFE20C71DBDB29800F64EDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EAFE20C11DBDB29800F64EDA = {
+			isa = PBXGroup;
+			children = (
+				EAFE20CC1DBDB29800F64EDA /* CycleScrollView */,
+				EAFE20CB1DBDB29800F64EDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EAFE20CB1DBDB29800F64EDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAFE20CA1DBDB29800F64EDA /* CycleScrollView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAFE20CC1DBDB29800F64EDA /* CycleScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				EAFE20CD1DBDB29800F64EDA /* AppDelegate.swift */,
+				EAFE20CF1DBDB29800F64EDA /* ViewController.swift */,
+				EAFE20D11DBDB29800F64EDA /* Main.storyboard */,
+				EAFE20D41DBDB29800F64EDA /* Assets.xcassets */,
+				EAFE20D61DBDB29800F64EDA /* LaunchScreen.storyboard */,
+				EAFE20D91DBDB29800F64EDA /* Info.plist */,
+				EAFE20DF1DBDB2DA00F64EDA /* CycleScrollView.swift */,
+			);
+			path = CycleScrollView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAFE20C91DBDB29800F64EDA /* CycleScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAFE20DC1DBDB29800F64EDA /* Build configuration list for PBXNativeTarget "CycleScrollView" */;
+			buildPhases = (
+				EAFE20C61DBDB29800F64EDA /* Sources */,
+				EAFE20C71DBDB29800F64EDA /* Frameworks */,
+				EAFE20C81DBDB29800F64EDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CycleScrollView;
+			productName = CycleScrollView;
+			productReference = EAFE20CA1DBDB29800F64EDA /* CycleScrollView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAFE20C21DBDB29800F64EDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = li.min;
+				TargetAttributes = {
+					EAFE20C91DBDB29800F64EDA = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 2B889MA252;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EAFE20C51DBDB29800F64EDA /* Build configuration list for PBXProject "CycleScrollView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAFE20C11DBDB29800F64EDA;
+			productRefGroup = EAFE20CB1DBDB29800F64EDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAFE20C91DBDB29800F64EDA /* CycleScrollView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAFE20C81DBDB29800F64EDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAFE20D81DBDB29800F64EDA /* LaunchScreen.storyboard in Resources */,
+				EAFE20D51DBDB29800F64EDA /* Assets.xcassets in Resources */,
+				EAFE20D31DBDB29800F64EDA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAFE20C61DBDB29800F64EDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAFE20D01DBDB29800F64EDA /* ViewController.swift in Sources */,
+				EAFE20CE1DBDB29800F64EDA /* AppDelegate.swift in Sources */,
+				EAFE20E01DBDB2DA00F64EDA /* CycleScrollView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EAFE20D11DBDB29800F64EDA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAFE20D21DBDB29800F64EDA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EAFE20D61DBDB29800F64EDA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAFE20D71DBDB29800F64EDA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EAFE20DA1DBDB29800F64EDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EAFE20DB1DBDB29800F64EDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAFE20DD1DBDB29800F64EDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2B889MA252;
+				INFOPLIST_FILE = CycleScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = li.min.com.CycleScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EAFE20DE1DBDB29800F64EDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2B889MA252;
+				INFOPLIST_FILE = CycleScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = li.min.com.CycleScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAFE20C51DBDB29800F64EDA /* Build configuration list for PBXProject "CycleScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAFE20DA1DBDB29800F64EDA /* Debug */,
+				EAFE20DB1DBDB29800F64EDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAFE20DC1DBDB29800F64EDA /* Build configuration list for PBXNativeTarget "CycleScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAFE20DD1DBDB29800F64EDA /* Debug */,
+				EAFE20DE1DBDB29800F64EDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAFE20C21DBDB29800F64EDA /* Project object */;
+}
